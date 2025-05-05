@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - VidaPlus</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script defer src="js/script.js"></script>
+    <link href="https://cdn.jsdelivr.net/gh/callaprimo/fa-v6@master/css/all.min.css" rel="stylesheet" type="text/css" />
+    <style>
+        .contacto {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+        .contacto-info, .contacto-mapa {
+            flex: 1 1 300px;
+        }
+        .contacto-info h2 {
+            font-size: 1.6rem;
+            margin-bottom: 1rem;
+        }
+        .contacto-info p {
+            margin-bottom: 0.5rem;
+        }
+        .contacto-mapa img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Seguros VidaPlus</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Seguros</a></li>
+                <li><a href="presupuesto.html">Presupuesto</a></li>
+                <li><a href="contacto.html" class="activo">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contacto">
+            <div class="contacto-info">
+                <h2>Contáctanos</h2>
+                <p><strong>Dirección:</strong> Av. Segura 123, Ciudad Protección</p>
+                <p><strong>Teléfono:</strong> +34 912 345 678</p>
+                <p><strong>Email:</strong> contacto@vidaplus.com</p>
+                <p><strong>Horario:</strong> Lunes a Viernes de 9:00 a 18:00</p>
+            </div>
+            <div class="contacto-mapa">
+                <img src="img/mapa.jpg" alt="Mapa ubicación de VidaPlus">
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-contenido">
+            <div class="footer-info">
+                <h3>Seguros VidaPlus</h3>
+                <p>Av. Segura 123, Ciudad Protección</p>
+                <p>&copy; 2025 Seguros VidaPlus - <a href="#">Aviso legal</a></p>
+            </div>
+            <div class="footer-redes">
+                <a href="#" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" target="_blank" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="mailto:info@vidaplus.com" target="_blank" aria-label="Correo electrónico"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

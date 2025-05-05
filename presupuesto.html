@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Presupuesto | Seguros VidaPlus</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">Seguros VidaPlus</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Seguros</a></li>
+        <li><a href="presupuesto.html" class="activo">Presupuesto</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="formulario">
+      <h2>Solicita tu presupuesto</h2>
+      <form action="#" method="post">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" required />
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <label class="checkbox">
+          <input type="checkbox" required />
+          Acepto la política de privacidad
+        </label>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-contenido">
+        <div class="footer-info">
+            <h3>Seguros VidaPlus</h3>
+            <p>Av. Segura 123, Ciudad Protección</p>
+            <p>© 2025 Seguros VidaPlus - <a href="#">Aviso legal</a></p>
+        </div>
+        <div class="footer-redes">
+            <a href="#" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" target="_blank" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="mailto:info@vidaplus.com" target="_blank" aria-label="Correo electrónico"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
